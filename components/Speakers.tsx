@@ -25,7 +25,7 @@ const speakers = [
 
 export default function Speakers() {
   return (
-    <>
+    <div id="#speakers">
       <div className="px-5 md:px-20 py-5 w-full flex items-center justify-center leading-relaxed">
         <div className="text-center">
           <h1 className="text-2xl font-semibold pb-5">Featured Speakers</h1>
@@ -81,6 +81,6 @@ export default function Speakers() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

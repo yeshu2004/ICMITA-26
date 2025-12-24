@@ -3,6 +3,8 @@ import img from "@/public/img3.jpg";
 import img_viswanathan from "@/public/Viswanathan.jpg";
 import vp from "@/public/vp.jpg";
 import avp from "@/public/avp.jpg";
+import vc from "@/public/ProVCSirC.jpg";
+import r from "@/public/DrDebashisAdhikari.jpg";
 import { ArrowRight } from "lucide-react";
 
 const chairs = [
@@ -150,12 +152,12 @@ export default function Page() {
                   fill
                   priority
                   className="object-cover object-center"
-                  src={vp}
+                  src={vc}
                 />
               </div>
               <div className="py-3">
-                <h2 className="font-semibold">Mr. Sankar Viswanathan</h2>
-                <h3 className="text-blue-200 text-sm">Vice President</h3>
+                <h2 className="font-semibold">Dr. Senthil Kumar Arumugam</h2>
+                <h3 className="text-blue-200 text-sm">Vice Chancellor (I/c)</h3>
               </div>
             </div>
 
@@ -166,13 +168,13 @@ export default function Page() {
                   fill
                   priority
                   className="object-cover object-center"
-                  src={avp}
+                  src={r}
                 />
               </div>
               <div className="py-3">
-                <h2 className="font-semibold">Ms. Kadhambari S. Viswanathan</h2>
+                <h2 className="font-semibold">Dr. Debashis Adhikari</h2>
                 <h3 className="text-blue-200 text-sm">
-                  Assistant Vice President
+                  Registrar (I/c)
                 </h3>
               </div>
             </div>

@@ -43,10 +43,10 @@ export default function Hero() {
               <h1 className="">submit paper now</h1>
               <div><ArrowRight/></div>
             </button>
-            <button className="flex items-center gap-2 text-[#2B3258] bg-white px-5 py-3 font-semibold uppercase">
+            {/* <button className="flex items-center gap-2 text-[#2B3258] bg-white px-5 py-3 font-semibold uppercase">
               <h1 className="">glimpse of 2025</h1>
               <div><ArrowRight/></div>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

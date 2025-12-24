@@ -19,10 +19,10 @@ export default function Navbar() {
   const links = [
     { name: "home", href: "/" },
     { name: "brochure", href: "/brochure" },
-    { name: "speakers", href: "/speakers" },
+    { name: "speakers", href: "/#speakers" },
     { name: "organizers", href: "/organizers" },
     { name: "register", href: "/register" },
-    { name: "gallery", href: "/gallery" },
+    { name: "glimpse of ICMITA-2024", href: "/icmita2024" },
   ];
 
   useEffect(() => {
@@ -83,7 +83,7 @@ export default function Navbar() {
                   {(isHovered || isActive) && (
                     <motion.span
                       layoutId="nav-indicator"
-                      className="absolute -top-5 h-1 w-full bg-[#2B3258]"
+                      className={`absolute h-1 w-full ${scrolled && !hidden ? "bg-white -top-7": "bg-[#2B3258] -top-5"}`}
                       transition={{ type: "spring", stiffness: 200, damping: 30 }}
                     />
                   )}
