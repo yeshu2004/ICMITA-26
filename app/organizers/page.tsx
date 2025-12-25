@@ -3,7 +3,7 @@ import img from "@/public/img3.jpg";
 import img_viswanathan from "@/public/Viswanathan.jpg";
 import vp from "@/public/vp.jpg";
 import avp from "@/public/avp.jpg";
-import vc from "@/public/ProVCSirC.jpg";
+import vc from "@/public/Senthilsir.jpg";
 import r from "@/public/DrDebashisAdhikari.jpg";
 import { ArrowRight } from "lucide-react";
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { usePathname } from "next/navigation";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, delay, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 import logo from "@/public/VITBLogo.webp";
@@ -21,7 +21,7 @@ export default function Navbar() {
     { name: "brochure", href: "/brochure" },
     { name: "speakers", href: "/#speakers" },
     { name: "organizers", href: "/organizers" },
-    { name: "register", href: "/register" },
+    { name: "registrations", href: "/registrations" },
     { name: "glimpse of ICMITA-2024", href: "/icmita2024" },
   ];
 
